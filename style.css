@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-image: url("https://images8.alphacoders.com/415/415429.jpg");
+  background-image: url("https://images3.alphacoders.com/112/thumb-1920-1126757.jpg");
   background-repeat: no-repeat;
 
   background-size: cover;
@@ -23,15 +23,17 @@ body {
 }
 
 .container {
-  margin: 80px;
+  margin: 50px;
 
   display: flex;
+  height: 95vh;
 
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
 .container .login {
   background: var(--main-white);
   flex: 1;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
 }
 
 .container .login header {
@@ -125,9 +127,11 @@ body {
   border-radius: 18px;
   width: 60px;
   height: 60px;
-  margin-top: 60%;
+  margin-top: 75%;
 
   margin-left: 37%;
+
+  cursor: pointer;
 }
 
 .container .banner {
@@ -136,7 +140,7 @@ body {
 
 footer {
   margin: 30px;
-  width: 60%;
+  width: 50%;
   text-align: center;
-  margin-left: 17%;
+  margin-left: 21%;
 }

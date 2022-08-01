@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --main-white: #f1f2f6;
+  --white-clouds: #dfe4ea;
+}
+
+html {
+  font-family: "PT Sans", sans-serif;
+}
+
+body {
+  background-image: url("https://images8.alphacoders.com/415/415429.jpg");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  margin: 80px;
+
+  display: flex;
+
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.container .login {
+  background: var(--main-white);
+  flex: 1;
+}
+
+.container .login header {
+  text-align: center;
+}
+.container .login header img {
+  width: 50px;
+  margin: 50px;
+}
+
+.container .login main {
+  display: flex;
+  flex-direction: column;
+
+  margin: 30px;
+  gap: 15px;
+}
+
+.container .login main span {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.container .login main span input {
+  height: 10px;
+  border: none;
+}
+
+.container .login main h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.container .login main .user-input {
+  height: 45px;
+  background: var(--white-clouds);
+
+  border: none;
+  border-radius: 8px;
+
+  padding: 1rem;
+
+  outline: none;
+}
+
+.container .login main .user-input:focus {
+  background: var(--main-white);
+  border: 2px solid rgba(0, 0, 0, 0.9);
+}
+
+/* Container */
+.container .login main .social-login {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Caixas */
+.container .login main .social-login .box-social {
+  width: 32%;
+  height: 30px;
+
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Caixas das redes sociais */
+
+.container .login main .social-login .box-social-fb {
+  background: #0984e3;
+  color: #ffff;
+}
+.container .login main .social-login .box-social-google {
+  background: #db4a39;
+  color: #ffff;
+}
+.container .login main .social-login .box-social-apple {
+  background: rgba(0, 0, 0, 1);
+  color: #ffff;
+}
+
+.container .login main button {
+  background: transparent;
+
+  border: 3px solid rgba(0, 0, 0, 0.2);
+
+  color: rgba(0, 0, 0, 0.2);
+
+  border-radius: 18px;
+  width: 60px;
+  height: 60px;
+  margin-top: 60%;
+
+  margin-left: 37%;
+}
+
+.container .banner {
+  width: 78%;
+}
+
+footer {
+  margin: 30px;
+  width: 60%;
+  text-align: center;
+  margin-left: 17%;
+}
